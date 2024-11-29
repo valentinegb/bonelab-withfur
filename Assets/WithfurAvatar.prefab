@@ -1,5 +1,36 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &574453219762126387
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4997795377884959450}
+  m_Layer: 0
+  m_Name: EyeCenter
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4997795377884959450
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 574453219762126387}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.776, z: 0.1518}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6779928762800002780}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &6457489191018737975
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -91,12 +122,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 645995642544983206}
   requiredBonesOrRefsMissing: 0
-  eyeCenterOverride: {fileID: 0}
+  eyeCenterOverride: {fileID: 4997795377884959450}
   bodyMeshes:
   - {fileID: 386817059297948981}
   headMeshes: []
   hairMeshes: []
-  eyeOffset: 0.02
+  eyeOffset: 0.16
   wristLf: {fileID: 7572315060560374210}
   wristRt: {fileID: 2991312798466974850}
   neck2: {fileID: 0}
@@ -110,75 +141,75 @@ MonoBehaviour:
   twistForearmRt: {fileID: 0}
   twistUpperThighLf: {fileID: 0}
   twistUpperThighRt: {fileID: 0}
-  _headTop: 0.068
-  _chinY: 0.068
+  _headTop: 0.22045344
+  _chinY: 0.12
   _underbustY: 0.35
-  _waistY: 0.62
-  _highHipY: 0.81
-  _crotchBottom: 0.04
-  _headEllipseX: 0.044
-  _jawEllipseX: 0.044
-  _neckEllipseX: 0.035
-  _chestEllipseX: 0.1
-  _waistEllipseX: 0.091
-  _highHipsEllipseX: 0.091
-  _hipsEllipseX: 0.091
-  _headEllipseZ: 0.06
-  _jawEllipseZ: 0.06
-  _neckEllipseZ: 0.04
-  _sternumEllipseZ: 0.052
-  _chestEllipseZ: 0.076
-  _waistEllipseZ: 0.075
-  _highHipsEllipseZ: 0.07
-  _hipsEllipseZ: 0.07
-  _headEllipseNegZ: 0.06
-  _jawEllipseNegZ: 0.06
-  _neckEllipseNegZ: 0.03
-  _sternumEllipseNegZ: 0.052
-  _chestEllipseNegZ: 0.07
-  _waistEllipseNegZ: 0.06
-  _highHipsEllipseNegZ: 0.07
+  _waistY: 0.69948906
+  _highHipY: 0.85
+  _crotchBottom: 0.035073183
+  _headEllipseX: 0.2
+  _jawEllipseX: 0.16498333
+  _neckEllipseX: 0.044791676
+  _chestEllipseX: 0.13777234
+  _waistEllipseX: 0.15504876
+  _highHipsEllipseX: 0.16654469
+  _hipsEllipseX: 0.13756259
+  _headEllipseZ: 0.2
+  _jawEllipseZ: 0.2
+  _neckEllipseZ: 0.03589002
+  _sternumEllipseZ: 0.07097529
+  _chestEllipseZ: 0.08670398
+  _waistEllipseZ: 0.099385895
+  _highHipsEllipseZ: 0.10484193
+  _hipsEllipseZ: 0.077313714
+  _headEllipseNegZ: 0.14273582
+  _jawEllipseNegZ: 0.12861007
+  _neckEllipseNegZ: 0.03410502
+  _sternumEllipseNegZ: 0.072434925
+  _chestEllipseNegZ: 0.087029114
+  _waistEllipseNegZ: 0.099329725
+  _highHipsEllipseNegZ: 0.10325345
   _hipsEllipseNegZ: 0.08
   _thighUpperEllipse:
-    XRadius: 0.03
-    XBias: 0
-    ZRadius: 0.03
+    XRadius: 0.06545731
+    XBias: -0.0366339
+    ZRadius: 0.046529647
     ZBias: 0
   _kneeEllipse:
-    XRadius: 0.03
+    XRadius: 0.06814537
     XBias: 0
-    ZRadius: 0.03
+    ZRadius: 0.04780117
     ZBias: 0
   _calfEllipse:
-    XRadius: 0.03
+    XRadius: 0.06687385
     XBias: 0
-    ZRadius: 0.03
+    ZRadius: 0.047801156
     ZBias: 0
   _ankleEllipse:
-    XRadius: 0.03
-    XBias: 0
-    ZRadius: 0.03
+    XRadius: 0.06883663
+    XBias: 0.08231458
+    ZRadius: 0.049027875
     ZBias: 0
   _upperarmEllipse:
-    XRadius: 0.03
-    XBias: 0
-    ZRadius: 0.03
-    ZBias: 0
+    XRadius: 0.04581316
+    XBias: 0.061069313
+    ZRadius: 0.03366277
+    ZBias: 0.030696593
   _elbowEllipse:
-    XRadius: 0.03
+    XRadius: 0.055233993
     XBias: 0
-    ZRadius: 0.03
-    ZBias: 0
+    ZRadius: 0.029826783
+    ZBias: 0.16680552
   _forearmEllipse:
-    XRadius: 0.03
+    XRadius: 0.056055862
     XBias: 0
-    ZRadius: 0.03
-    ZBias: 0
+    ZRadius: 0.029050099
+    ZBias: 0.17982598
   _wristEllipse:
-    XRadius: 0.03
+    XRadius: 0.048749685
     XBias: 0
-    ZRadius: 0.03
-    ZBias: 0
+    ZRadius: 0.018974436
+    ZBias: -0.035703525
   bulgeBreast:
     apexX: 26
     apexY: 0.5
@@ -306,6 +337,11 @@ MonoBehaviour:
   surfaceDataCard:
     _barcode:
       _id: null.empty.barcode
+--- !u!4 &6779928762800002780 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8870f6fd64e1c4d90ab54324da5db711, type: 3}
+  m_PrefabInstance: {fileID: 6457489191018737975}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &7572315060560374210 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -5725244623508334347, guid: 8870f6fd64e1c4d90ab54324da5db711, type: 3}
