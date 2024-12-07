@@ -37,7 +37,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
-        m_Texture: {fileID: 2800000, guid: 2f30b864f161aa94989b773c1fa1a174, type: 3}
+        m_Texture: {fileID: 2800000, guid: 0302effd471ddf340b03b94da2d7a55e, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _texcoord:
@@ -78,7 +78,7 @@ Material:
     - _QueueControl: 0
     - _QueueOffset: 0
     - _SSROff: 0
-    - _SSRTemporalMul: 1
+    - _SSRTemporalMul: 0
     - _Surface: 0
     - _ZWrite: 1
     m_Colors:
