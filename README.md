@@ -1,6 +1,6 @@
 # Withfur
 
-<!-- Insert render here -->
+![Render](https://github.com/user-attachments/assets/b620b260-9215-415b-bdd3-c9d2c7f9642d)
 
 This is my personal avatar, [available on mod.io] so that it can be downloaded
 automatically by [Fusion].
