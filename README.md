@@ -25,7 +25,8 @@ than most humans but is much closer.)
 > I do not have a Windows computer! So for this avatar to be available for PCVR,
 > it must be packed by a volunteer. If at any time there is a newer version of
 > this avatar available for Quest than the version available for PCVR, I very
-> very very much appreciate volunteers who are willing!
+> very very much appreciate volunteers who are willing! If you pack for PCVR,
+> you can send it to me on Discord at "valentinegb".
 
 [available on mod.io]: https://mod.io/g/bonelab/m/withfur
 [Fusion]: https://github.com/Lakatrazz/BONELAB-Fusion
